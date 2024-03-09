@@ -129,36 +129,40 @@ const Home = () => {
                 <h4 className="text-xl font-bold mb-5">{t(`Socialmedia`)} :</h4>
 
                 <div className="ms-3 text-white">
-                  <div className=" flex items-center">
-                    <a
-                      href="https://www.facebook.com/groups/956605468723462/about"
-                      target="_blank"
-                      className=" bg-black p-2 rounded-full bg-opacity-70 me-4"
-                    >
-                      <FaFacebookF />
-                    </a>
-                    <span className="text-black text-xl mb-1">Facebook</span>
-                  </div>
-                  <div className="mt-4 flex items-center">
-                    <a
-                      href="https://www.instagram.com/elsersawy_auto_services/"
-                      target="_blank"
-                      className=" bg-black p-2 rounded-full bg-opacity-70 me-4"
-                    >
-                      <FaInstagram />
-                    </a>
-                    <span className="text-black text-xl mb-1">Instagram</span>
-                  </div>
-                  <div className="mt-4 flex items-center">
-                    <a
-                      href="https://www.tiktok.com/@elsersawy.auto.service"
-                      target="_blank"
-                      className=" bg-black p-2 rounded-full bg-opacity-70 me-4"
-                    >
-                      <FaTiktok />
-                    </a>
-                    <span className="text-black text-xl mb-1">Tik Tok</span>
-                  </div>
+                  <a
+                    href="https://www.facebook.com/groups/956605468723462/about"
+                    target="_blank"
+                  >
+                    <div className=" flex items-center">
+                      <a className=" bg-black p-2 rounded-full bg-opacity-70 me-4">
+                        <FaFacebookF />
+                      </a>
+                      <span className="text-black text-xl mb-1">Facebook</span>
+                    </div>
+                  </a>
+                  <a
+                    href="https://www.instagram.com/elsersawy_auto_services/"
+                    target="_blank"
+                  >
+                    <div className="mt-4 flex items-center">
+                      <a className=" bg-black p-2 rounded-full bg-opacity-70 me-4">
+                        <FaInstagram />
+                      </a>
+                      <span className="text-black text-xl mb-1">Instagram</span>
+                    </div>
+                  </a>
+
+                  <a
+                    href="https://www.tiktok.com/@elsersawy.auto.service"
+                    target="_blank"
+                  >
+                    <div className="mt-4 flex items-center">
+                      <a className=" bg-black p-2 rounded-full bg-opacity-70 me-4">
+                        <FaTiktok />
+                      </a>
+                      <span className="text-black text-xl mb-1">Tik Tok</span>
+                    </div>
+                  </a>
                 </div>
               </div>
               <div

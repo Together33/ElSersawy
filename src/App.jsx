@@ -30,11 +30,41 @@ function App() {
               </span>
             </Navbar.Brand>
 
+            <button
+              onClick={() => {
+                if (i18n.language == "en") {
+                  i18n.changeLanguage("ar");
+                } else {
+                  i18n.changeLanguage("en");
+                }
+              }}
+              className={`md:absolute ${
+                i18n.language == "en"
+                  ? "  md:right-14 2xl:right-10"
+                  : "  md:left-2 lg:left-14 2xl:left-10"
+              } `}
+            >
+              <div className="flex items-center border p-1 rounded-lg">
+                <p
+                  className={`text-xl ${
+                    i18n.language == "en" ? "pb-2" : ""
+                  } ps-1`}
+                >
+                  {t(`enORar`)}{" "}
+                </p>
+                <GrLanguage className="ms-1 " />
+              </div>
+            </button>
+
             <Navbar.Toggle className="" />
-            <Navbar.Collapse className="md:me-36 ">
+            <Navbar.Collapse
+              className={`${
+                i18n.language == "en" ? "md:me-36" : "md:me-16 lg:me-36"
+              }  `}
+            >
               <Navbar.Link
                 className={`text-white text-xl hover:text-gray-600   ${
-                  i18n.language == "en" ? "" : "me-8"
+                  i18n.language == "en" ? "" : "md:me-8"
                 }`}
                 href="#home"
               >
@@ -59,32 +89,6 @@ function App() {
                 {t(`navbar.callUs`)}
               </Navbar.Link>
             </Navbar.Collapse>
-
-            <button
-              onClick={() => {
-                if (i18n.language == "en") {
-                  i18n.changeLanguage("ar");
-                } else {
-                  i18n.changeLanguage("en");
-                }
-              }}
-              className={`absolute ${
-                i18n.language == "en"
-                  ? "right-20 top-7 sm:right-60 md:right-14 2xl:right-10"
-                  : "left-20 top-7 sm:left-60  md:left-14 2xl:left-10"
-              } `}
-            >
-              <div className="flex items-center border p-1 rounded-lg">
-                <p
-                  className={`text-xl ${
-                    i18n.language == "en" ? "pb-2" : ""
-                  } ps-1`}
-                >
-                  {t(`enORar`)}{" "}
-                </p>
-                <GrLanguage className="ms-1 " />
-              </div>
-            </button>
           </Navbar>
         </div>
 

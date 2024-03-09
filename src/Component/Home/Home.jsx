@@ -16,6 +16,7 @@ import skoda from "../../assets/image/car logo/skoda.png";
 import toyota from "../../assets/image/car logo/toyota.png";
 import volkswagen from "../../assets/image/car logo/Volkswagen.png";
 import image1 from "../../assets/image/image1.png";
+import bgImage from "../../assets/image/car-mechanic.jpg";
 
 const Home = () => {
   const { t, i18n } = useTranslation();
@@ -42,7 +43,8 @@ const Home = () => {
     <div>
       <section id="home" className="home">
         <div
-          className={` bg-[url('src/assets/image/car-mechanic.jpg')] bg-cover bg-no-repeat bg-fixed  w-full h-screen`}
+          style={{ "--image-url": `url(${bgImage})` }}
+          className={`bg-[image:var(--image-url)] bg-cover bg-no-repeat bg-fixed  w-full h-screen`}
         >
           <div className="w-full text-center h-screen bg-black bg-opacity-60 flex justify-center items-center ">
             <div>

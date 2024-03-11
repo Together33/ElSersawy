@@ -78,7 +78,7 @@ const Home = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
             iure?
           </p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 w-[70%] mx-auto gap-5 mt-10 ">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 w-[70%] mx-auto gap-5 gap-x-16 mt-10 ">
             <h6 className="w-full text-xl font-medium shadow-[0px_0px_12px_1px_rgba(0,0,0,0.3)] hover:shadow-[0px_0px_12px_1px_rgba(255,255,255,0.3)] hover:bg-black hover:text-white duration-500  p-1 me-10 rounded-md flex justify-center items-center">
               <TbAirConditioning className="text-2xl me-2" />
               تكييف

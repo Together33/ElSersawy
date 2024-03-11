@@ -59,8 +59,10 @@ const Home = () => {
         >
           <div className="w-full text-center h-screen bg-black bg-opacity-60 flex justify-center items-center ">
             <div>
-              <h2 className="text-6xl font-bold mb-10">{t(`welcome`)}</h2>
-              <h3 className="text-5xl font-bold mb-16">
+              <h2 className="text-4xl md:text-6xl font-bold mb-10">
+                {t(`welcome`)}
+              </h2>
+              <h3 className="text-3xl md:text-5xl font-bold mb-16">
                 {t(`AtElSersawyCarMaintenanceCenter`)}
               </h3>
             </div>
@@ -76,32 +78,32 @@ const Home = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
             iure?
           </p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 w-[70%] mx-auto gap-5 mt-10 text-center">
-            <h6 className="text-xl font-medium shadow-[0px_0px_12px_1px_rgba(0,0,0,0.3)] hover:shadow-[0px_0px_12px_1px_rgba(255,255,255,0.3)] hover:bg-black hover:text-white duration-500  p-1 me-10 rounded-md flex justify-center items-center">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 w-[70%] mx-auto gap-5 mt-10 ">
+            <h6 className="w-full text-xl font-medium shadow-[0px_0px_12px_1px_rgba(0,0,0,0.3)] hover:shadow-[0px_0px_12px_1px_rgba(255,255,255,0.3)] hover:bg-black hover:text-white duration-500  p-1 me-10 rounded-md flex justify-center items-center">
               <TbAirConditioning className="text-2xl me-2" />
               تكييف
             </h6>
-            <h6 className="text-xl font-medium shadow-[0px_0px_12px_1px_rgba(0,0,0,0.3)] hover:shadow-[0px_0px_12px_1px_rgba(255,255,255,0.3)] hover:bg-black hover:text-white duration-500 p-1 me-10 rounded-md flex justify-center items-center">
+            <h6 className="w-full text-xl font-medium shadow-[0px_0px_12px_1px_rgba(0,0,0,0.3)] hover:shadow-[0px_0px_12px_1px_rgba(255,255,255,0.3)] hover:bg-black hover:text-white duration-500 p-1 me-10 rounded-md flex justify-center items-center">
               <GiTireIronCross className="text-2xl me-2" />
               قطع غيار
             </h6>
-            <h6 className="text-xl font-medium shadow-[0px_0px_12px_1px_rgba(0,0,0,0.3)] hover:shadow-[0px_0px_12px_1px_rgba(255,255,255,0.3)] hover:bg-black hover:text-white duration-500 p-1 me-10 rounded-md flex justify-center items-center">
+            <h6 className="w-full text-xl font-medium shadow-[0px_0px_12px_1px_rgba(0,0,0,0.3)] hover:shadow-[0px_0px_12px_1px_rgba(255,255,255,0.3)] hover:bg-black hover:text-white duration-500 p-1 me-10 rounded-md flex justify-center items-center">
               <GiPaintBucket className="text-2xl me-2" />
               دهان
             </h6>
-            <h6 className="text-xl font-medium shadow-[0px_0px_12px_1px_rgba(0,0,0,0.3)] hover:shadow-[0px_0px_12px_1px_rgba(255,255,255,0.3)] hover:bg-black hover:text-white duration-500 p-1 me-10 rounded-md flex justify-center items-center">
+            <h6 className="w-full text-xl font-medium shadow-[0px_0px_12px_1px_rgba(0,0,0,0.3)] hover:shadow-[0px_0px_12px_1px_rgba(255,255,255,0.3)] hover:bg-black hover:text-white duration-500 p-1 me-10 rounded-md flex justify-center items-center">
               <BsCarFrontFill className="text-2xl me-2" />
               عفشة
             </h6>
-            <h6 className="text-xl font-medium shadow-[0px_0px_12px_1px_rgba(0,0,0,0.3)] hover:shadow-[0px_0px_12px_1px_rgba(255,255,255,0.3)] hover:bg-black hover:text-white duration-500 p-1 me-10 rounded-md flex justify-center items-center">
+            <h6 className="w-full text-xl font-medium shadow-[0px_0px_12px_1px_rgba(0,0,0,0.3)] hover:shadow-[0px_0px_12px_1px_rgba(255,255,255,0.3)] hover:bg-black hover:text-white duration-500 p-1 me-10 rounded-md flex justify-center items-center">
               <BiSolidCarMechanic className="text-2xl me-2" />
               ميكانيكا
             </h6>
-            <h6 className="text-xl font-medium shadow-[0px_0px_12px_1px_rgba(0,0,0,0.3)] hover:shadow-[0px_0px_12px_1px_rgba(255,255,255,0.3)] hover:bg-black hover:text-white duration-500 p-1 me-10 rounded-md flex justify-center items-center">
+            <h6 className="w-full text-xl font-medium shadow-[0px_0px_12px_1px_rgba(0,0,0,0.3)] hover:shadow-[0px_0px_12px_1px_rgba(255,255,255,0.3)] hover:bg-black hover:text-white duration-500 p-1 me-10 rounded-md flex justify-center items-center">
               <MdOutlinePlumbing className="text-2xl me-2" />
               سمكرة
             </h6>
-            <h6 className="text-xl font-medium shadow-[0px_0px_12px_1px_rgba(0,0,0,0.3)] hover:shadow-[0px_0px_12px_1px_rgba(255,255,255,0.3)] hover:bg-black hover:text-white duration-500 p-1 me-10 rounded-md md:col-start-2  flex justify-center items-center">
+            <h6 className="w-full text-xl font-medium shadow-[0px_0px_12px_1px_rgba(0,0,0,0.3)] hover:shadow-[0px_0px_12px_1px_rgba(255,255,255,0.3)] hover:bg-black hover:text-white duration-500 p-1 me-10 rounded-md md:col-start-2  flex justify-center items-center">
               <GiWashingMachine className="text-2xl me-2" />
               العناية بالسيارة
             </h6>

@@ -1,5 +1,16 @@
 import { useTranslation } from "react-i18next";
-import { FaFacebookF, FaInstagram, FaPhone, FaTiktok } from "react-icons/fa6";
+import { FaFacebookF, FaInstagram, FaTiktok } from "react-icons/fa6";
+import {
+  GiPaintBucket,
+  GiTireIronCross,
+  GiWashingMachine,
+} from "react-icons/gi";
+import { MdOutlinePlumbing } from "react-icons/md";
+import { BiSolidCarMechanic } from "react-icons/bi";
+import { FcAssistant } from "react-icons/fc";
+import { BsCarFrontFill } from "react-icons/bs";
+import { TbAirConditioning } from "react-icons/tb";
+
 import audi from "../../assets/image/car logo/audi.png";
 import bmw from "../../assets/image/car logo/bmw.png";
 import chevrolet from "../../assets/image/car logo/chevrolet.png";
@@ -65,11 +76,41 @@ const Home = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
             iure?
           </p>
+          <div className="grid grid-cols-3 w-[70%] mx-auto gap-5 mt-10 text-center">
+            <h6 className="text-xl font-medium shadow-[0px_0px_12px_1px_rgba(0,0,0,0.3)] hover:shadow-[0px_0px_12px_1px_rgba(255,255,255,0.3)] hover:bg-black hover:text-white duration-500  p-1 me-10 rounded-md flex justify-center items-center">
+              <TbAirConditioning className="text-2xl me-2" />
+              تكييف
+            </h6>
+            <h6 className="text-xl font-medium shadow-[0px_0px_12px_1px_rgba(0,0,0,0.3)] hover:shadow-[0px_0px_12px_1px_rgba(255,255,255,0.3)] hover:bg-black hover:text-white duration-500 p-1 me-10 rounded-md flex justify-center items-center">
+              <GiTireIronCross className="text-2xl me-2" />
+              قطع غيار
+            </h6>
+            <h6 className="text-xl font-medium shadow-[0px_0px_12px_1px_rgba(0,0,0,0.3)] hover:shadow-[0px_0px_12px_1px_rgba(255,255,255,0.3)] hover:bg-black hover:text-white duration-500 p-1 me-10 rounded-md flex justify-center items-center">
+              <GiPaintBucket className="text-2xl me-2" />
+              دهان
+            </h6>
+            <h6 className="text-xl font-medium shadow-[0px_0px_12px_1px_rgba(0,0,0,0.3)] hover:shadow-[0px_0px_12px_1px_rgba(255,255,255,0.3)] hover:bg-black hover:text-white duration-500 p-1 me-10 rounded-md flex justify-center items-center">
+              <BsCarFrontFill className="text-2xl me-2" />
+              عفشة
+            </h6>
+            <h6 className="text-xl font-medium shadow-[0px_0px_12px_1px_rgba(0,0,0,0.3)] hover:shadow-[0px_0px_12px_1px_rgba(255,255,255,0.3)] hover:bg-black hover:text-white duration-500 p-1 me-10 rounded-md flex justify-center items-center">
+              <BiSolidCarMechanic className="text-2xl me-2" />
+              ميكانيكا
+            </h6>
+            <h6 className="text-xl font-medium shadow-[0px_0px_12px_1px_rgba(0,0,0,0.3)] hover:shadow-[0px_0px_12px_1px_rgba(255,255,255,0.3)] hover:bg-black hover:text-white duration-500 p-1 me-10 rounded-md flex justify-center items-center">
+              <MdOutlinePlumbing className="text-2xl me-2" />
+              سمكرة
+            </h6>
+            <h6 className="text-xl font-medium shadow-[0px_0px_12px_1px_rgba(0,0,0,0.3)] hover:shadow-[0px_0px_12px_1px_rgba(255,255,255,0.3)] hover:bg-black hover:text-white duration-500 p-1 me-10 rounded-md col-start-2  flex justify-center items-center">
+              <GiWashingMachine className="text-2xl me-2" />
+              العناية بالسيارة
+            </h6>
+          </div>
           <div className="mt-10 mb-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-5 w-[70%] mx-auto">
             {carLogo.map((car) => (
               <div
                 key={car.name}
-                className={`mx-auto w-40 h-52 text-center flex flex-col justify-between`}
+                className={`mx-auto w-40 h-52 text-center flex flex-col justify-between hover:shadow-[0px_0px_12px_1px_rgba(0,0,0,0.3)] rounded-md hover:p-2 duration-300`}
               >
                 <div className="flex justify-center items-center h-52">
                   <img className="w-full  " src={car.car} alt="" />
@@ -96,7 +137,6 @@ const Home = () => {
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3455.916410665519!2d31.360403859719856!3d29.98183217505945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583b680053154f%3A0x6ebb2cfbc229376c!2z2YXYsdmD2LIg2KfZhNiz2LHYs9in2YjZiiDZhNi12YrYp9mG2Kkg2KfZhNiz2YrYp9ix2KfYqiDYqNin2YTZgti32KfZhdmK2Kk!5e0!3m2!1sar!2seg!4v1709995727729!5m2!1sar!2seg"
             className=" w-[400px] h-[200px] sm:w-[500px] sm:h-[300px] md:w-[600px] md:h-[350px] lg:w-[800px] lg:h-[450px] xl:w-[950px] xl:h-[450px]"
             style={{ border: "0" }}
-            allowfullscreen=""
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
@@ -172,23 +212,11 @@ const Home = () => {
               >
                 <h4 className="text-xl font-bold">{t(`callus`)} :</h4>
                 <div className="ms-3 mt-3 flex items-center ">
-                  <a
-                    href="https://www.facebook.com/groups/956605468723462/about"
-                    target="_blank"
-                    className=" bg-black p-2 rounded-full bg-opacity-70 me-4  text-white"
-                  >
-                    <FaPhone />
-                  </a>
+                  <FcAssistant className="text-4xl me-5" />
                   <span className="text-[17px]">01003567220</span>
                 </div>
                 <div className="ms-3 mt-3 flex items-center ">
-                  <a
-                    href="https://www.facebook.com/groups/956605468723462/about"
-                    target="_blank"
-                    className=" bg-black p-2 rounded-full bg-opacity-70 me-4  text-white"
-                  >
-                    <FaPhone />
-                  </a>
+                  <FcAssistant className="text-4xl me-5" />
                   <span className="text-[17px]">01210700008</span>
                 </div>
               </div>

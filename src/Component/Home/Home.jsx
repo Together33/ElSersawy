@@ -76,7 +76,7 @@ const Home = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
             iure?
           </p>
-          <div className="grid grid-cols-3 w-[70%] mx-auto gap-5 mt-10 text-center">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 w-[70%] mx-auto gap-5 mt-10 text-center">
             <h6 className="text-xl font-medium shadow-[0px_0px_12px_1px_rgba(0,0,0,0.3)] hover:shadow-[0px_0px_12px_1px_rgba(255,255,255,0.3)] hover:bg-black hover:text-white duration-500  p-1 me-10 rounded-md flex justify-center items-center">
               <TbAirConditioning className="text-2xl me-2" />
               تكييف
@@ -101,7 +101,7 @@ const Home = () => {
               <MdOutlinePlumbing className="text-2xl me-2" />
               سمكرة
             </h6>
-            <h6 className="text-xl font-medium shadow-[0px_0px_12px_1px_rgba(0,0,0,0.3)] hover:shadow-[0px_0px_12px_1px_rgba(255,255,255,0.3)] hover:bg-black hover:text-white duration-500 p-1 me-10 rounded-md col-start-2  flex justify-center items-center">
+            <h6 className="text-xl font-medium shadow-[0px_0px_12px_1px_rgba(0,0,0,0.3)] hover:shadow-[0px_0px_12px_1px_rgba(255,255,255,0.3)] hover:bg-black hover:text-white duration-500 p-1 me-10 rounded-md md:col-start-2  flex justify-center items-center">
               <GiWashingMachine className="text-2xl me-2" />
               العناية بالسيارة
             </h6>

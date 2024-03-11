@@ -81,31 +81,31 @@ const Home = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 w-[70%] mx-auto gap-5 gap-x-16 mt-10 ">
             <h6 className="w-full text-xl font-medium shadow-[0px_0px_12px_1px_rgba(0,0,0,0.3)] hover:shadow-[0px_0px_12px_1px_rgba(255,255,255,0.3)] hover:bg-black hover:text-white duration-500  p-1 me-10 rounded-md flex justify-center items-center">
               <TbAirConditioning className="text-2xl me-2" />
-              تكييف
+              {t(`service.AirConditioner`)}
             </h6>
             <h6 className="w-full text-xl font-medium shadow-[0px_0px_12px_1px_rgba(0,0,0,0.3)] hover:shadow-[0px_0px_12px_1px_rgba(255,255,255,0.3)] hover:bg-black hover:text-white duration-500 p-1 me-10 rounded-md flex justify-center items-center">
               <GiTireIronCross className="text-2xl me-2" />
-              قطع غيار
+              {t(`service.SpareParts`)}
             </h6>
             <h6 className="w-full text-xl font-medium shadow-[0px_0px_12px_1px_rgba(0,0,0,0.3)] hover:shadow-[0px_0px_12px_1px_rgba(255,255,255,0.3)] hover:bg-black hover:text-white duration-500 p-1 me-10 rounded-md flex justify-center items-center">
               <GiPaintBucket className="text-2xl me-2" />
-              دهان
+              {t(`service.Paint`)}
             </h6>
             <h6 className="w-full text-xl font-medium shadow-[0px_0px_12px_1px_rgba(0,0,0,0.3)] hover:shadow-[0px_0px_12px_1px_rgba(255,255,255,0.3)] hover:bg-black hover:text-white duration-500 p-1 me-10 rounded-md flex justify-center items-center">
               <BsCarFrontFill className="text-2xl me-2" />
-              عفشة
+              {t(`service.Suspension`)}
             </h6>
             <h6 className="w-full text-xl font-medium shadow-[0px_0px_12px_1px_rgba(0,0,0,0.3)] hover:shadow-[0px_0px_12px_1px_rgba(255,255,255,0.3)] hover:bg-black hover:text-white duration-500 p-1 me-10 rounded-md flex justify-center items-center">
               <BiSolidCarMechanic className="text-2xl me-2" />
-              ميكانيكا
+              {t(`service.Mechanics`)}
             </h6>
             <h6 className="w-full text-xl font-medium shadow-[0px_0px_12px_1px_rgba(0,0,0,0.3)] hover:shadow-[0px_0px_12px_1px_rgba(255,255,255,0.3)] hover:bg-black hover:text-white duration-500 p-1 me-10 rounded-md flex justify-center items-center">
               <MdOutlinePlumbing className="text-2xl me-2" />
-              سمكرة
+              {t(`service.Tinsmithing`)}
             </h6>
             <h6 className="w-full text-xl font-medium shadow-[0px_0px_12px_1px_rgba(0,0,0,0.3)] hover:shadow-[0px_0px_12px_1px_rgba(255,255,255,0.3)] hover:bg-black hover:text-white duration-500 p-1 me-10 rounded-md md:col-start-2  flex justify-center items-center">
               <GiWashingMachine className="text-2xl me-2" />
-              العناية بالسيارة
+              {t(`service.CarCare`)}
             </h6>
           </div>
           <div className="mt-10 mb-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-5 w-[70%] mx-auto">

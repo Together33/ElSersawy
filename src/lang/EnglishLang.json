@@ -7,6 +7,15 @@
         "location":"location",
         "callUs":"call us"
     },
+    "service":{
+        "AirConditioner":"Air conditioner",
+        "SpareParts":"Spare parts",
+        "Paint":"Paint",
+        "Suspension":"Suspension",
+        "Mechanics":"Mechanics",
+        "Tinsmithing":"Tinsmithing",
+        "CarCare":"Car care"
+    },
     "welcome":"Welcome",
     "Socialmedia":"Social media",
     "callus":"call us",

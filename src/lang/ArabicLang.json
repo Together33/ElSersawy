@@ -7,6 +7,15 @@
         "location":"موقع",
         "callUs":"تواصل معنا"
     },
+    "service":{
+        "AirConditioner":"تكييف",
+        "SpareParts":"قطع غيار",
+        "Paint":"دهان",
+        "Suspension":"عفشة",
+        "Mechanics":"ميكانيكا",
+        "Tinsmithing":"سمكرة",
+        "CarCare":"العناية بالسيارة"
+    },
     "welcome":"أهلا بكم",
     "Socialmedia":"وسائل التواصل الاجتماعي",
     "callus":"اتصل بنا",
